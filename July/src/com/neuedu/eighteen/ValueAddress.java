@@ -10,12 +10,10 @@ public class ValueAddress {
         for (int i : a) {
             System.out.print(i+" ");
             System.out.println();
-
         }
         b[0]=10;
         for (int i = 0; i < b.length; i++) {
             System.out.print(b[i]+" ");
-
         }
         System.out.println();
         for (int i = 0; i < a.length; i++) {
