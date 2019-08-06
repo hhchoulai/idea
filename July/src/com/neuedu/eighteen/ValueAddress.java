@@ -9,16 +9,24 @@ public class ValueAddress {
         int[] b=a;
         for (int i : a) {
             System.out.print(i+" ");
-            System.out.println();
+
         }
+        System.out.println();
         b[0]=10;
         for (int i = 0; i < b.length; i++) {
             System.out.print(b[i]+" ");
         }
         System.out.println();
         for (int i = 0; i < a.length; i++) {
-            System.out.print(" "+a[i]+" ");
+            System.out.print(a[i]+" ");
         }
+        System.out.println();
+        b=new int[]{1,2,3};
+        for (int i : b) {
+            System.out.print(i+" ");
+        }
+
+
 
     }
 }

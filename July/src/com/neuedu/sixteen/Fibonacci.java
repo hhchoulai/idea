@@ -1,5 +1,8 @@
 package com.neuedu.sixteen;
 
+/**
+ * 1000以内的斐波那契数
+ */
 public class Fibonacci {
     public static void main(String[] args) {
         int x=1;

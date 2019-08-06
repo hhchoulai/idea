@@ -1,5 +1,8 @@
 package com.neuedu.test;
 
+/**
+ * 练习题：银行存款
+ */
 public class Bank {
     public static void main(String[] args) {
         /*计算存款10000元，活期1年(0.35%)、活期2年，定期1年(1.5%)，定期2年(2.1%)后的本息合计*/

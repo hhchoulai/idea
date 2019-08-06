@@ -14,19 +14,16 @@ public class FindWord {
         System.out.println("请输入一个单词");
         Scanner sc=new Scanner(System.in);
         String  x=sc.nextLine();
-//这块逻辑可以优化
+        boolean flag=false;
         for (int i=0;i<a.length;i++){
             if (a[i].matches(x)){
-                System.out.println("Yes");
-                break;
+                flag=true;
             }
         }
-        for (int i=0;i<a.length;i++){
-            if (!a[i].matches(x)){
-                System.out.println("No");
-                break;
-            }
+        if (flag){
+            System.out.println("Yes");
+        }else {
+            System.out.println("No");
         }
-//
     }
 }

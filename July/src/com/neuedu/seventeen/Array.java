@@ -2,6 +2,9 @@ package com.neuedu.seventeen;
 
 import java.util.Random;
 
+/**
+ * 求数组的最大值，最小值，总和，平均值
+ */
 public class Array {
     public static void main(String[] args) {
         //定义数组

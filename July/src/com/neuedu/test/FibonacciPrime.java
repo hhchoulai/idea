@@ -32,7 +32,7 @@ public class FibonacciPrime {
     }
 //主方法
     public static void main(String[] args) {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 1; i <= 1000; i++) {
             if (isFbnc(i)&&isPrime(i)){
                 System.out.println(i);
             }
